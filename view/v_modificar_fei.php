@@ -10,7 +10,7 @@
 <body>
 	<center>
 		<a href="../view/v_fichaei.php">Ir a Inicio</a>
-		<h1 style="color: orange;">Editar Ficha de Ingreso</h1>
+		<h1 style="color: orange;"> Ficha de Ingreso</h1>
 			<?php
 				c_seleccionarfei();
 			?>

@@ -11,14 +11,14 @@ require_once '../model/conexion.php';
 require_once '../model/m_recordTratamiento.php';
 
 function Select(){
-    $consultas=new tratamiento();
+    $consultas=new tratamiento($fecha,$numero_h,$tpps,$tppd,$cis,$cid,$rtfecha,$rtatencion,$ecdr,$ecfecha,$ectc,$ecacta,$ecsaldo,$laba,$labb,$labc);
     $filas=$consultas ->selectHistoria();
     foreach($filas as $fila){
         echo "<option value=".$fila['numero_h'].">".$fila['numero_h']." - ".$fila['nombre']."</option>";
     }
 }
 function cargarRecord(){
-    $consultas=new tratamiento();
+    $consultas=new tratamiento($fecha,$numero_h,$tpps,$tppd,$cis,$cid,$rtfecha,$rtatencion,$ecdr,$ecfecha,$ectc,$ecacta,$ecsaldo,$laba,$labb,$labc);
     $filas=$consultas ->ficha_record();
     
     echo "<table border='1' class='table'>

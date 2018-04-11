@@ -37,6 +37,7 @@ require_once('../controller/c_recordTratamiento.php');
 		<li class="active"><a href="v_fichaei.php">Ficha de Examen De Ingreso</a></li>
 		<li class="active"><a href="v_tratPres.php">Ficha de Tratamientos y Presupuestos  Particular</a></li>
 		<li class="active"><a href="#">Ficha de Record de Tratamiento</a></li>
+		<li class="active"><a href="v_visualizar.php">Reporte</a></li>
 	</ul>
 	<ul class="nav navbar-nav navbar-right">
 		<li><a href="../index.php?accion=Salir"><span class="glyphicon glyphicon-off"></span> Salir</a></li>
@@ -47,7 +48,6 @@ require_once('../controller/c_recordTratamiento.php');
   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
   Ver fichas registradas
   </button>
-
   <!-- The Modal -->
   <div class="modal fade" id="myModal">
     <div class="modal-dialog">

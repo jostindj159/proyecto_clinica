@@ -353,8 +353,9 @@ require_once('../controller/c_fichaei.php');
 	  <h1>Diagnostico 4:</h1>
 	  <textarea class="form-control" id="txtRecomendado" name="txtDiag4" ></textarea><br /><br />
 	</div>
-
+	<div class="col-xs-12" >
   <button type="submit" class="btn btn-info btn-lg" id="btnGuardar" name="btnGuardar"><em class="fa fa-user-plus"></em>Guardar </button>
+  </div>
   <br /><br />
   <center>
 </center>

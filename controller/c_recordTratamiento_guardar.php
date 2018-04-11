@@ -40,7 +40,7 @@ for ($i=0; $i < count($_POST['txtRTFecha']); $i++) {
 	$labb=$_POST['txtLabB'];
 	$labc=$_POST['txtLabC'];
 
-	$rt = new tratamiento();
+	$rt = new tratamiento($fecha,$numero_h,$tpps,$tppd,$cis,$cid,$rtfecha,$rtatencion,$ecdr,$ecfecha,$ectc,$ecacta,$ecsaldo,$laba,$labb,$labc);
 
 	$rt->fecha = $fecha;
 	$rt->numero_h = $numero_h;

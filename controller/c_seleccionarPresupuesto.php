@@ -42,7 +42,7 @@ function c_seleccionarPresupuesto(){
 			
 			<div class="col-xs-3">
 			<label>Fecha:</label>
-			<input type="date" class="form-control" id="txtFecha" name="txtFecha">
+			<input type="date" class="form-control" id="txtFecha" name="txtFecha" value="<?php echo $fila1['fecha'];?>">
 			</div>
 
 			<div class="col-xs-6">

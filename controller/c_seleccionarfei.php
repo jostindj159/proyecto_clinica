@@ -22,7 +22,9 @@ if (!valida_logueo()){
 error_reporting(0);
 function c_seleccionarfei(){
 	if(isset($_GET['numero_h'])){
-	$Fich = new Ex();
+	$Fich = new Ex($fecha,$numero_h,$motivo_c,$examen_i,$radiografias,$p_arterial,$periodontograma,$f_clinica,$e_laboratorio,
+	 $m_estudio,$tomografia,$a_sonrisa,$informe,$diag1,$diag2,$diag3,$diag4,$diag5,$diag6,$diag7,$diag8,$diag9,$diag10,$diag11,
+	 $diag12,$diag13,$diente_pieza,$diente_area,$diente_diag,$diagnostico_a,$diagnostico_b,$diagnostico_c,$diagnostico_d);
 	$numero_h=$_GET['numero_h'];
 	//$nombre = $_GET['nombre'];
 	//$dni = $_GET['dni'];
@@ -519,8 +521,8 @@ function c_seleccionarfei(){
 	  <input type="text" class="form-control" id="txtRecomendado" name="diagnostico_d" value="<?php echo $fila1['diagnostico_d'];?>"><br />
 	</div>
 
-  <button type="submit" class="btn btn-primary btn-lg" ><em class="fa fa-user-plus"></em>Guardar Cambios</button>
-  <br /><br />
+  <!--<button type="submit" class="btn btn-primary btn-lg" ><em class="fa fa-user-plus"></em>Guardar Cambios</button>
+  <br /><br />-->
   <center>
 </center>
  </form>

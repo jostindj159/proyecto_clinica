@@ -1,9 +1,12 @@
 <?php
-$conexion = mysqli_connect("localhost","root","jakamoto","clinica");
+require_once('../model/conexion.php');
 $id = $_POST['id'];
-$query = $conexion->query("SELECT * FROM d_tratamiento WHERE id = $id");
-//detalle descripcion2
+$stmt = $dbh->prepare("SELECT * FROM d_tratamiento WHERE id = ? ");
+$stmt->bindParam(1,$id);
+$stmt->execute();
+$filas = $stmt->fetchAll();
+
 echo '<option value="">Seleccione</option>';
-while ( $row = $query->fetch_assoc() ){
-	echo '<option value="' . $row['descripcion']. '">' . $row['descripcion'] . '</option>' . "\n";
+foreach ($filas as $col) {
+echo '<option value="' . $col['descripcion']. '">' . $col['descripcion'] . '</option>' . "\n";
 }

@@ -45,8 +45,7 @@ if (!valida_logueo()){
 </div>
 
 <div class="row">
-    <div class="col-xs-0 col-sm-2 col-lg-1"></div>
-    <div class="col-xs-12 col-sm-10 col-lg-10">
+    <div class="col-xs-12 col-sm-12 col-lg-12">
         <div id="resultadoBusqueda"></div>
     </div>
 </div>
@@ -65,7 +64,7 @@ $(document).ready(function() {
                 $("#resultadoBusqueda").html(mensaje);
             }); 
         } else { 
-            $("#resultadoBusqueda").html('<p>No hay Resultados</p>');
+            $("#resultadoBusqueda").html('<center><h2>Ingrese una Fecha</h2></center>');
         }
     });
 </script>

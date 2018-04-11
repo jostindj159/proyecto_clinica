@@ -20,7 +20,7 @@ require_once '../model/conexion.php';
 require_once '../model/m_presupuesto.php';
 
 function cargarPresupuestos(){
-    $consultas=new Presupuesto();
+    $consultas=new Presupuesto($fecha,$numero_h,$pieza,$area,$diag,$desc1,$desc2,$costo,$cantidad,$costSol,$costDol,$inicial,$saldo,$cuotas);
     $filas=$consultas ->ficha_presupuesto();
     
     echo "<table border='1' class='table'>

@@ -49,7 +49,7 @@ $result = $sth->fetchAll();
       <li class="active"><a href="v_fichaei.php">Ficha de Examen De Ingreso</a></li>
       <li class="active"><a href="#">Ficha de Tratamientos y Presupuestos  Particular</a></li>
       <li class="active"><a href="v_recordTratamiento.php">Ficha de Record de Tratamiento</a></li>
-      <li class="active"><a href="v_visualizar.php">Reporte</a></li>
+      
     </ul>
 
     <ul class="nav navbar-nav navbar-right">
@@ -61,14 +61,12 @@ $result = $sth->fetchAll();
 <center>
 <div class="row">
   <div class="col-xs-0 col-sm-2 col-lg-3"></div>
-  <div class="col-xs-12 col-sm-5 col-lg-4">
+  <div class="col-xs-12 col-sm-5 col-lg-6">
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
     Ver fichas de Tratamientos registradas
     </button>
   </div>
-  <div class="col-xs-12 col-sm-3 col-lg-1">
-    <a href="v_visualizar.php"><button type="submit" class="btn btn-primary" >Buscar</button> </a>
-  </div>
+
 </div>
 
   <!-- The Modal -->
@@ -506,7 +504,8 @@ $result = $sth->fetchAll();
     function buscar(){
       //alert("bien");
         var opcion = document.getElementById('txtHistoria').value;
-        window.location.href = 'http://localhost/clinica/view/v_tratPres.php?opcion='+opcion;
+        //window.location.href = 'http://localhost/clinica/view/v_tratPres.php?opcion='+opcion;
+        window.location.href = 'http://localhost:8080/110418Clinica/view/v_tratPres.php?opcion='+opcion;
     }
 </script>
   <script type="text/javascript">

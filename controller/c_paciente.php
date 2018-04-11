@@ -1,4 +1,4 @@
-<?php
+v<?php
 require_once('c_funciones.php');
 if (!valida_logueo()){
   die('acceso denegado');

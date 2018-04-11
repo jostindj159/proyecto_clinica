@@ -1,8 +1,10 @@
 <?php
-$conexion = mysqli_connect("localhost","root","jakamoto","clinica");
-$query = $conexion->query("SELECT * FROM n_tratamiento order by tratamiento");
-//detalle descriion 1
+
+require_once('../model/conexion.php');
+$stmt = $dbh->prepare("SELECT * FROM n_tratamiento order by tratamiento");
+$stmt->execute();
+$filas = $stmt->fetchAll();
 echo '<option value="">Seleccione</option>';
-while ( $row = $query->fetch_assoc() ){
-	echo '<option value="' . $row['id']. '">' . $row['tratamiento'] . '</option>' . "\n";
+foreach ($filas as $col) {
+echo '<option value="' . $col['id']. '">' . $col['tratamiento'] . '</option>' . "\n";
 }

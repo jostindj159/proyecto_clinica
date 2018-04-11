@@ -22,7 +22,8 @@ if (!valida_logueo()){
 error_reporting(0);
 function c_seleccionarRecord(){
 	if(isset($_GET['numero_h'])){
-	$Fich = new tratamiento();
+	$Fich = new tratamiento(
+	$fecha,$numero_h,$tpps,$tppd,$cis,$cid,$rtfecha,$rtatencion,$ecdr,$ecfecha,$ectc,$ecacta,$ecsaldo,$laba,$labb,$labc);
 	$numero_h=$_GET['numero_h'];
 	//$nombre = $_GET['nombre'];
 	//$dni = $_GET['dni'];
