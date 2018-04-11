@@ -1,0 +1,4 @@
+192.168.0.7	jostein
+192.168.0.24	douglas
+192.168.0.x	pc core I5
+192.168.0.27	laptob
