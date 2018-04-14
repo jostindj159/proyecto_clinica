@@ -9,7 +9,7 @@
 </head>
 <body class="body">
 
-<canvas id="c" name="c" width="1375" height="300"></canvas>
+<canvas id="c" name="c" width="920" height="220"></canvas>
 <!--<canvas id="c2" name="c2" width="560px" height="300px"></canvas>-->
 <script>
 function grabar1(){
@@ -932,697 +932,696 @@ function grabar1(){
 var canvas = new fabric.Canvas('c');
 var nEscala 	= 1;
 
-var fig_a1 = new fabric.Path('M 39	36 L 20	22.5 C 19.5	11	80	10.5	81	22 L 61.5 36 C 62.5	32	40.5	30	39	36 Z');
+var fig_a1 = new fabric.Path('M 26	24 L 13.33333333	15 C 13	7.333333333	53.33333333	7	54	14.66666667 L 41	24 C 41.66666667	21.33333333	27	20	26	24 Z');
 	fig_a1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_a1);
-var text = new fabric.Text('1', { left: 40, top: 62 });
+var text = new fabric.Text('1', { left: 24, top: 38 });
 canvas.add(text);
 
-var fig_a2 = new fabric.Path('M 37.5 37 L 20 24 C 13.5	24	15	57	21	57 L 37.5 46.5 C 34.5	47	34	37.5	37.5	37 Z');
+var fig_a2 = new fabric.Path('M 25	24.66666667 L 13.33333333	16 C 9	16	10	38	14	38 L 25	31 C 23	31.33333333	22.66666667	25	25	24.66666667 Z');
 	fig_a2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_a2);
 
-var fig_a3 = new fabric.Path('M 38	48.5 L 21.5	58.5 C 21.5	72.5 81.5 70.5 81.5 58 L 62.5 48.5 C 63 52.5 38.5 53 38 48.5 Z');
+var fig_a3 = new fabric.Path('M 25.33333333	32.33333333 L 14.33333333	39 C 14.33333333	48.33333333	54.33333333	47	54.33333333	38.66666667 L 41.66666667	32.33333333 C 42	35	25.66666667	35.33333333	25.33333333	32.33333333 Z');
 	fig_a3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_a3);
 
-var fig_a4 = new fabric.Path('M 63.5 36.5 L 80 24.5 C 85.5 22 91.5 52 82 56.5 L 63.5 47.5 C 66	48 67.5	37.5	63.5	36.5 Z');
+var fig_a4 = new fabric.Path('M 42.33333333	24.33333333 L 53.33333333	16.33333333 C 57	14.66666667	61	34.66666667	54.66666667	37.66666667 L 42.33333333	31.66666667 C 44	32	45	25	42.33333333	24.33333333 Z');
 	fig_a4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_a4);
 
-var fig_a5 = new fabric.Path('M 40.5 38 C 41.5 33 62 34.5 61.5 38 C 66 37.5 65.5 47 61.5 47.5 C 62 50.5	42 52.5	41 47.5 C 36 46 36.5 36.5	40.5 38 Z');
+var fig_a5 = new fabric.Path('M 27	25.33333333 C 27.66666667	22	41.33333333	23	41	25.33333333 C 44	25	43.66666667	31.33333333	41	31.66666667 C 41.33333333	33.66666667	28	35	27.33333333	31.66666667 C 24	30.66666667	24.33333333	24.33333333	27	25.33333333 Z');
 	fig_a5.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_a5);
 	//
 
-var fig_b1 = new fabric.Path('M 114	36 L 95	22.5 C 94.5	11	155	10.5	156	22 L 136.5	36 C 137.5	32	115.5	30	114	36 Z');
+var fig_b1 = new fabric.Path('M 76	24 L 63.33333333	15 C 63	7.333333333	103.3333333	7	104	14.66666667 L 91	24 C 91.66666667	21.33333333	77	20	76	24 Z');
 	fig_b1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_b1);
-var text = new fabric.Text('2', { left: 120, top: 62 });
+var text = new fabric.Text('2', { left: 73, top: 38 });
 canvas.add(text);
 
-var fig_b2 = new fabric.Path('M 112.5	37 L 95	24 C 88.5	24	90	57	96	57 L 112.5	46.5 C 109.5	47	109	37.5	112.5	37 Z');
+var fig_b2 = new fabric.Path('M 75	24.66666667 L 63.33333333	16 C 59	16	60	38	64	38 L 75	31 C 73	31.33333333	72.66666667	25	75	24.66666667 Z');
 	fig_b2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_b2);
 
-var fig_b3 = new fabric.Path('M 113	48.5 L 96.5	58.5 C 96.5	72.5	156.5	70.5	156.5	58 L 137.5 48.5 C 138	52.5	113.5	53	113	48.5 Z');
+var fig_b3 = new fabric.Path('M 75.33333333	32.33333333 L 64.33333333	39 C 64.33333333	48.33333333	104.3333333	47	104.3333333	38.66666667 L 91.66666667	32.33333333 C 92	35	75.66666667	35.33333333	75.33333333	32.33333333 Z');
 	fig_b3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_b3);
 
-var fig_b4 = new fabric.Path('M 138.5	36.5 L 155	24.5 C 160.5	22	166.5	52	157	56.5 L 138.5	47.5 C 141	48	142.5	37.5	138.5	36.5 Z');
+var fig_b4 = new fabric.Path('M 92.33333333	24.33333333 L 103.3333333	16.33333333 C 107	14.66666667	111	34.66666667	104.6666667	37.66666667 L 92.33333333	31.66666667 C 94	32	95	25	92.33333333	24.33333333 Z');
 	fig_b4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_b4);
 
-var fig_b5 = new fabric.Path('M 115.5	38 C 116.5	33	137	34.5	136.5	38 C 141	37.5	140.5	47	136.5	47.5 C 137	50.5	117	52.5	116	47.5 C 111	46	111.5	36.5	115.5	38 Z');
+var fig_b5 = new fabric.Path('M 77	25.33333333 C 77.66666667	22	91.33333333	23	91	25.33333333 C 94	25	93.66666667	31.33333333	91	31.66666667 C 91.33333333	33.66666667	78	35	77.33333333	31.66666667 C 74	30.66666667	74.33333333	24.33333333	77	25.33333333 Z');
 	fig_b5.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_b5);
 
 	//
 
-var fig_c1 = new fabric.Path('M 189	36 L 170	22.5 C 169.5	11	230	10.5	231	22 L 211.5	36 C 212.5	32	190.5	30	189	36 Z');
+var fig_c1 = new fabric.Path('M 126	24 L 113.3333333	15 C 113	7.333333333	153.3333333	7	154	14.66666667 L 141	24 C 141.6666667	21.33333333	127	20	126	24 Z');
 	fig_c1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_c1);
-var text = new fabric.Text('3', { left: 190, top: 62 });
+var text = new fabric.Text('3', { left: 122, top: 38 });
 canvas.add(text);
 
-var fig_c2 = new fabric.Path('M 187.5	37 L 170	24 C 163.5	24	165	57	171	57 L 187.5	46.5 C 184.5	47	184	37.5	187.5	37 Z');
+var fig_c2 = new fabric.Path('M 125	24.66666667 L 113.3333333	16 C 109	16	110	38	114	38 L 125	31 C 123	31.33333333	122.6666667	25	125	24.66666667 Z');
 	fig_c2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_c2);
 
-var fig_c3 = new fabric.Path('M 188	48.5 L 171.5	58.5 C 171.5	72.5	231.5	70.5	231.5	58 L 212.5	48.5 C 213	52.5	188.5	53	188	48.5 Z');
+var fig_c3 = new fabric.Path('M 125.3333333	32.33333333L 114.3333333	39 C 114.3333333	48.33333333	154.3333333	47	154.3333333	38.66666667 L 141.6666667	32.33333333 C 142	35	125.6666667	35.33333333	125.3333333	32.33333333 Z');
 	fig_c3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_c3);
 
-var fig_c4 = new fabric.Path('M 213.5	36.5 L 230	24.5 C 235.5	22	241.5	52	232	56.5 L 213.5	47.5 C 216	48	217.5	37.5	213.5	36.5 Z');
+var fig_c4 = new fabric.Path('M 142.3333333	24.33333333 L 153.3333333	16.33333333 C 157	14.66666667	161	34.66666667	154.6666667	37.66666667 L 142.3333333	31.66666667 C 144	32	145	25	142.3333333	24.33333333 Z');
 	fig_c4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_c4);
 
-var fig_c5 = new fabric.Path('M 190.5	38 C 191.5	33	212	34.5	211.5 38 C 216	37.5	215.5	47	211.5	47.5 C 212	50.5	192	52.5	191	47.5 C 186	46	186.5	36.5	190.5	38 Z');
+var fig_c5 = new fabric.Path('M 127	25.33333333 C 127.6666667	22	141.3333333	23	141	25.33333333 C 144	25	143.6666667	31.33333333	141	31.66666667 C 141.3333333	33.66666667	128	35	127.3333333	31.66666667 C 124	30.66666667	124.3333333	24.33333333	127	25.33333333 Z');
 	fig_c5.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_c5);
 
 	//
 
-var fig_d1 = new fabric.Path('M 266.5	36.5 C 266.5	37.5	305	37	305	36 L 317.5	19 C 318	10.5	251	8.5	250	20 L 266.5	36.5 Z');
+var fig_d1 = new fabric.Path('M 177.6666667	24.33333333 C 177.6666667	25	203.3333333	24.66666667	203.3333333	24 L 211.6666667	12.66666667 C 212	7	167.3333333	5.666666667	166.6666667	13.33333333 L 177.6666667	24.33333333 Z');
 	fig_d1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_d1);
-var text = new fabric.Text('4', { left: 270, top: 62 });
+var text = new fabric.Text('4', { left: 176, top: 38 });
 canvas.add(text);
-var fig_d2 = new fabric.Path('M 267.5	39 C 267.5	37.5	304.5	37.5	304.5	38.5 L 319.5	55 C 318	70	257.5	68	253.5	57.5 L 267.5	39 Z');
+var fig_d2 = new fabric.Path('M 178.3333333	26 C 178.3333333	25	203	25	203	25.66666667 L 213	36.66666667 C 212	46.66666667	171.6666667	45.33333333	169	38.33333333 L 178.3333333	26 Z');
 	fig_d2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_d2);
 
-var fig_d3 = new fabric.Path('M 248.5	21.5 L 265.5	38 L 250.5	57 C 242	56	240.5	20.5	248.5	21.5 Z');
+var fig_d3 = new fabric.Path('M 165.6666667	14.33333333 L 177	25.33333333 L 167	38 C 161.3333333	37.33333333	160.3333333	13.66666667	165.6666667	14.33333333 Z');
 	fig_d3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_d3);
 
-var fig_d4 = new fabric.Path('M 319	20.5 L 306	37.5 L 321	54 C 330	56	330.5	23	319	20.5 Z');
+var fig_d4 = new fabric.Path('M 212.6666667	13.66666667 L 204	25 L 214	36 C 220	37.33333333	220.3333333	15.33333333	212.6666667	13.66666667 Z');
 	fig_d4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_d4);
 
 	//+180
 
-var fig_e1 = new fabric.Path('M 356.5	36.5 C 356.5	37.5	395	37	395	36 L 407.5	19 C 408	10.5	341	8.5	340	20 L 356.5	36.5 Z');
+var fig_e1 = new fabric.Path('M 237.6666667	24.33333333	 C 237.6666667	25	263.3333333	24.66666667	263.3333333	24 L 271.6666667	12.66666667 C 272	7	227.3333333	5.666666667	226.6666667	13.33333333 L 237.6666667	24.33333333 Z');
 	fig_e1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_e1);
-var text = new fabric.Text('5', { left: 360, top: 62 });
+var text = new fabric.Text('5', { left: 242, top: 38 });
 canvas.add(text);
 
-var fig_e2 = new fabric.Path('M 357.5	39 C 357.5	37.5	394.5	37.5	394.5	38.5 L 409.5	55 C 408	70	347.5	68	343.5	57.5 L 357.5	39 Z');
+var fig_e2 = new fabric.Path('M 238.3333333	26 C 238.3333333	25	263	25	263	25.66666667 L 273	36.66666667 C 272	46.66666667	231.6666667	45.33333333	229	38.33333333 L 238.3333333	26 Z');
 	fig_e2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_e2);
 
-var fig_e3 = new fabric.Path('M 338.5	21.5 L 355.5	38 L 340.5	57 C 332	56	330.5	20.5	338.5	21.5 Z');
+var fig_e3 = new fabric.Path('M 225.6666667	14.33333333 L 237	25.33333333 L 227	38 C 221.3333333	37.33333333	220.3333333	13.66666667	225.6666667	14.33333333 Z');
 	fig_e3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_e3);
 
-var fig_e4 = new fabric.Path('M 409	20.5 L 396	37.5 L 411	54 C 420	56	420.5	23	409	20.5 Z');
+var fig_e4 = new fabric.Path('M 272.6666667	13.66666667 L 264	25 L 274	36 C 280	37.33333333	280.3333333	15.33333333	272.6666667 13.66666667 Z');
 	fig_e4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_e4);
 
 	//+180
 
-var fig_f1 = new fabric.Path('M 446.5	36.5 C 446.5	37.5	485	37	485	36 L 497.5	19 C 498	10.5	431	8.5	430	20 L 446.5	36.5 Z');
+var fig_f1 = new fabric.Path('M 297.6666667	24.33333333 C 297.6666667	25	323.3333333	24.66666667	323.3333333	24 L 331.6666667	12.66666667 C 332	7	287.3333333	5.666666667	286.6666667	13.33333333 L 297.6666667	24.33333333 Z');
 	fig_f1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_f1);
-var text = new fabric.Text('6', { left: 450, top: 62 });
+var text = new fabric.Text('6', { left: 298, top: 38 });
 canvas.add(text);
 
-var fig_f2 = new fabric.Path('M 447.5	39 C 447.5	37.5	484.5	37.5	484.5	38.5 L 499.5	55 C 498	70	437.5	68	433.5	57.5 L 447.5	39 Z');
+var fig_f2 = new fabric.Path('M 298.3333333	26 C 298.3333333	25	323	25	323	25.66666667 L 333	36.66666667 C 332	46.66666667	291.6666667	45.33333333	289	38.33333333 L 298.3333333	26 Z');
 	fig_f2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_f2);
 
-var fig_f3 = new fabric.Path('M 428.5	21.5 L 445.5	38 L 430.5	57 C 422	56	420.5	20.5	428.5	21.5 Z');
+var fig_f3 = new fabric.Path('M 285.6666667	14.33333333 L 297	25.33333333 L 287	38 C 281.3333333	37.33333333	280.3333333	13.66666667	285.6666667	14.33333333 Z');
 	fig_f3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_f3);
 
-var fig_f4 = new fabric.Path('M 499	20.5 L 486	37.5 L 501	54 C 510	56	510.5	23	499	20.5 Z');
+var fig_f4 = new fabric.Path('M 332.6666667	13.66666667 L 324	25 L 334	36 C 340	37.33333333	340.3333333	15.33333333	332.6666667	13.66666667 Z');
 	fig_f4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_f4);
 
 	//+180
 
-var fig_g1 = new fabric.Path('M 536.5	36.5 C 536.5	37.5	575	37	575	36 L 587.5	19 C 588	10.5	521	8.5	520	20 L 536.5	36.5 Z');
+var fig_g1 = new fabric.Path('M 357.6666667	24.33333333 C 357.6666667	25	383.3333333	24.66666667	383.3333333	24 L 391.6666667	12.66666667 C 392	7	347.3333333	5.666666667	346.6666667	13.33333333 L 357.6666667	24.33333333 Z');
 	fig_g1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_g1);
-var text = new fabric.Text('7', { left: 540, top: 62 });
+var text = new fabric.Text('7', { left: 356, top: 38 });
 canvas.add(text);
 
-var fig_g2 = new fabric.Path('M 537.5	39 C 537.5	37.5	574.5	37.5	574.5	38.5 L 589.5	55 C 588	70	527.5	68	523.5	57.5 L 537.5	39 Z');
+var fig_g2 = new fabric.Path('M 358.3333333	26 C 358.3333333	25	383	25	383	25.66666667 L 393	36.66666667 C 392	46.66666667	351.6666667	45.33333333	349	38.33333333 L 358.3333333	26 Z');
 	fig_g2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_g2);
 
-var fig_g3 = new fabric.Path('M 518.5	21.5 L 535.5	38 L 520.5	57 C 512	56	510.5	20.5	518.5	21.5 Z');
+var fig_g3 = new fabric.Path('M 345.6666667	14.33333333 L 357	25.33333333 L 347	38 C 341.3333333	37.33333333	340.3333333	13.66666667	345.6666667	14.33333333 Z');
 	fig_g3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_g3);
 
-var fig_g4 = new fabric.Path('M 589	20.5 L 576	37.5 L 591	54 C 600	56	600.5	23	589	20.5 Z');
+var fig_g4 = new fabric.Path('M 392.6666667	13.66666667 L 384	25 L 394	36 C 400	37.33333333	400.3333333	15.33333333	392.6666667	13.66666667 Z');
 	fig_g4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_g4);
 
 	//+180
 
-var fig_h1 = new fabric.Path('M 626.5	36.5 C 626.5	37.5	665	37	665	36 L 677.5	19 C 678	10.5	611	8.5	610	20 L 626.5	36.5 Z');
+var fig_h1 = new fabric.Path('M 417.6666667	24.33333333 C 417.6666667	25	443.3333333	24.66666667	443.3333333	24 L 451.6666667	12.66666667 C 452	7	407.3333333	5.666666667	406.6666667	13.33333333 L 417.6666667	24.33333333 Z');
 	fig_h1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_h1);
-var text = new fabric.Text('8', { left: 630, top: 62 });
+var text = new fabric.Text('8', { left: 420, top: 38 });
 canvas.add(text);
 
-var fig_h2 = new fabric.Path('M 627.5	39 C 627.5	37.5	664.5	37.5	664.5	38.5 L 679.5	55 C 678	70	617.5	68	613.5	57.5 L 627.5	39 Z');
+var fig_h2 = new fabric.Path('M 418.3333333	26 C 418.3333333	25	443	25	443	25.66666667 L 453	36.66666667 C 452	46.66666667	411.6666667	45.33333333	409	38.33333333 L 418.3333333	26 Z');
 	fig_h2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_h2);
 
-var fig_h3 = new fabric.Path('M 608.5	21.5 L 625.5	38 L 610.5	57 C 602	56	600.5	20.5	608.5	21.5 Z');
+var fig_h3 = new fabric.Path('M 405.6666667	14.33333333 L 417	25.33333333 L 407	38 C 401.3333333	37.33333333	400.3333333	13.66666667	405.6666667	14.33333333 Z');
 	fig_h3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_h3);
 
-var fig_h4 = new fabric.Path('M 679	20.5 L 666	37.5 L 681	54 C 690	56	690.5	23	679	20.5 Z');
+var fig_h4 = new fabric.Path('M 452.6666667	13.66666667 L 444	25 L 454	36 C 460	37.33333333	460.3333333	15.33333333	452.6666667	13.66666667 Z');
 	fig_h4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_h4);
 
 	//+180
 
-var fig_i1 = new fabric.Path('M 716.5	36.5 C 716.5	37.5	755	37	755	36 L 767.5	19 C 768	10.5	701	8.5	700	20 L 716.5	36.5 Z');
+var fig_i1 = new fabric.Path('M 477.6666667	24.33333333 C 477.6666667	25	503.3333333	24.66666667	503.3333333	24 L 511.6666667	12.66666667 C 512	7	467.3333333	5.666666667	466.6666667	13.33333333 L 477.6666667	24.33333333 Z');
 	fig_i1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_i1);
-var text = new fabric.Text('9', { left: 730, top: 62 });
+var text = new fabric.Text('9', { left: 480, top: 38 });
 canvas.add(text);
 
-var fig_i2 = new fabric.Path('M 717.5	39 C 717.5	37.5	754.5	37.5	754.5	38.5 L 769.5	55 C 768	70	707.5	68	703.5	57.5 L 717.5	39 Z');
+var fig_i2 = new fabric.Path('M 478.3333333	26 C 478.3333333	25	503	25	503	25.66666667 L 513	36.66666667 C 512	46.66666667	471.6666667	45.33333333	469	38.33333333 L 478.3333333	26 Z');
 	fig_i2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_i2);
 
-var fig_i3 = new fabric.Path('M 698.5	21.5 L 715.5	38 L 700.5	57 C 692	56	690.5	20.5	698.5	21.5 Z');
+var fig_i3 = new fabric.Path('M 465.6666667	14.33333333 L 477	25.33333333 L 467	38 C 461.3333333	37.33333333	460.3333333	13.66666667	465.6666667	14.33333333 Z');
 	fig_i3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_i3);
 
-var fig_i4 = new fabric.Path('M 769	20.5 L 756	37.5 L 771	54 C 780	56	780.5	23	769	20.5 Z');
+var fig_i4 = new fabric.Path('M 512.6666667	13.66666667 L 504	25 L 514	36 C 520	37.33333333	520.3333333	15.33333333	512.6666667	13.66666667 Z');
 	fig_i4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_i4);
 
 	//+180
 
-var fig_j1 = new fabric.Path('M 806.5	36.5 C 806.5	37.5	845	37	845	36 L 857.5	19 C 858	10.5	791	8.5	790	20 L 806.5	36.5 Z');
+var fig_j1 = new fabric.Path('M 537.6666667	24.33333333 C 537.6666667	25	563.3333333	24.66666667	563.3333333	24 L 571.6666667	12.66666667 C 572	7	527.3333333	5.666666667	526.6666667	13.33333333 L 537.6666667	24.33333333 Z');
 	fig_j1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_j1);
-var text = new fabric.Text('10', { left: 800, top: 62 });
+var text = new fabric.Text('10', { left: 530, top: 38 });
 canvas.add(text);
 
-var fig_j2 = new fabric.Path('M 807.5	39 C 807.5	37.5	844.5	37.5	844.5	38.5 L 859.5	55 C 858	70	797.5	68	793.5	57.5 L 807.5	39 Z');
+var fig_j2 = new fabric.Path('M 538.3333333	26 C 538.3333333	25	563	25	563	25.66666667 L 573	36.66666667 C 572	46.66666667	531.6666667	45.33333333	529	38.33333333 L 538.3333333	26 Z');
 	fig_j2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_j2);
 
-var fig_j3 = new fabric.Path('M 788.5	21.5 L 805.5	38 L 790.5	57 C 782	56	780.5	20.5	788.5	21.5 Z');
+var fig_j3 = new fabric.Path('M 525.6666667	14.33333333 L 537	25.33333333 L 527	38 C 521.3333333	37.33333333	520.3333333	13.66666667	525.6666667	14.33333333 Z');
 	fig_j3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_j3);
 
-var fig_j4 = new fabric.Path('M 859	20.5 L 846	37.5 L 861	54 C 870	56	870.5	23	859	20.5 Z');
+var fig_j4 = new fabric.Path('M 572.6666667	13.66666667 L 564	25 L 574	36 C 580	37.33333333	580.3333333	15.33333333	572.6666667	13.66666667 Z');
 	fig_j4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_j4);
 
 	//+180
 
-var fig_k1 = new fabric.Path('M 896.5	36.5 C 896.5	37.5	935	37	935	36 L 947.5	19 C 948	10.5	881	8.5	880	20	#¡VALOR!	896.5	36.5 L 896.5	36.5 Z');
+var fig_k1 = new fabric.Path('M 597.6666667	24.33333333 C 597.6666667	25	623.3333333	24.66666667	623.3333333	24 L 631.6666667	12.66666667 C 632	7	587.3333333	5.666666667	586.6666667	13.33333333 L 597.6666667	24.33333333 Z');
 	fig_k1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_k1);
-var text = new fabric.Text('11', { left: 900, top: 62 });
+var text = new fabric.Text('11', { left: 588, top: 38 });
 canvas.add(text);
 
-var fig_k2 = new fabric.Path('M 897.5	39 C 897.5	37.5	934.5	37.5	934.5	38.5 L 949.5	55 C 948	70	887.5	68	883.5	57.5 L 897.5	39 Z');
+var fig_k2 = new fabric.Path('M 598.3333333	26 C 598.3333333	25	623	25	623	25.66666667 L 633	36.66666667 C 632	46.66666667	591.6666667	45.33333333	589	38.33333333 L 598.3333333	26 Z');
 	fig_k2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_k2);
 
-var fig_k3 = new fabric.Path('M 878.5	21.5 L 895.5	38 L 880.5	57 C 872	56	870.5	20.5	878.5	21.5 Z');
+var fig_k3 = new fabric.Path('M 585.6666667	14.33333333 L 597	25.33333333 L 587	38 C 581.3333333	37.33333333	580.3333333	13.66666667	585.6666667	14.33333333 Z');
 	fig_k3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_k3);
 
-var fig_k4 = new fabric.Path('M 949	20.5 L 936	37.5 L 951	54 C 960	56	960.5	23	949	20.5 Z');
+var fig_k4 = new fabric.Path('M 632.6666667	13.66666667 L 624	25 L 634	36 C 640	37.33333333	640.3333333	15.33333333	632.6666667	13.66666667 Z');
 	fig_k4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_k4);
 
 	//+180
 
-var fig_l1 = new fabric.Path('M 986.5	36.5 C 986.5	37.5	1025	37	1025	36 L 1037.5	19 C 1038	10.5	971	8.5	970	20 L 986.5 36.5 Z');
+var fig_l1 = new fabric.Path('M 657.6666667	24.33333333 C 657.6666667	25	683.3333333	24.66666667	683.3333333	24 L 691.6666667	12.66666667 C 692	7	647.3333333	5.666666667	646.6666667	13.33333333 L 657.6666667	24.33333333 Z');
 	fig_l1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_l1);
-var text = new fabric.Text('12', { left: 990, top: 62 });
+var text = new fabric.Text('12', { left: 646, top: 38 });
 canvas.add(text);
 
-var fig_l2 = new fabric.Path('M 987.5	39 C 987.5	37.5	1024.5	37.5	1024.5	38.5 L 1039.5	55 C 1038	70	977.5	68	973.5	57.5 L 987.5	39 Z');
+var fig_l2 = new fabric.Path('M 658.3333333	26 C 658.3333333	25	683	25	683	25.66666667 L 693	36.66666667 C 692	46.66666667	651.6666667	45.33333333	649	38.33333333 L 658.3333333	26 Z');
 	fig_l2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_l2);
 
-var fig_l3 = new fabric.Path('M 968.5	21.5 L 985.5	38 L 970.5	57 C 962	56	960.5	20.5	968.5	21.5 Z');
+var fig_l3 = new fabric.Path('M 645.6666667	14.33333333 L 657	25.33333333 L 647	38 C 641.3333333	37.33333333	640.3333333	13.66666667	645.6666667	14.33333333 Z');
 	fig_l3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_l3);
 
-var fig_l4 = new fabric.Path('M 1039	20.5 L 1026	37.5 L 1041	54 C 1050	56	1050.5	23	1039	20.5 Z');
+var fig_l4 = new fabric.Path('M 692.6666667	13.66666667 L 684	25 L 694	36 C 700	37.33333333	700.3333333	15.33333333	692.6666667	13.66666667 Z');
 	fig_l4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_l4);
 
 	//+180
 
-var fig_m1 = new fabric.Path('M 1076.5	36.5 C 1076.5	37.5	1115	37	1115	36 L 1127.5	19 C 1128	10.5	1061	8.5	1060	20 L 1076.5	36.5 Z');
+var fig_m1 = new fabric.Path('M 717.6666667	24.33333333	 C 717.6666667	25	743.3333333	24.66666667	743.3333333	24 L 751.6666667	12.66666667 C 752	7	707.3333333	5.666666667	706.6666667	13.33333333 L 717.6666667	24.33333333 Z');
 	fig_m1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_m1);
-var text = new fabric.Text('13', { left: 1070, top: 62 });
+var text = new fabric.Text('13', { left: 710, top: 38 });
 canvas.add(text);
-var fig_m2 = new fabric.Path('M 1077.5	39 C 1077.5	37.5	1114.5	37.5	1114.5	38.5 L 1129.5	55 C 1128	70	1067.5	68	1063.5	57.5 L 1077.5	39 Z');
+var fig_m2 = new fabric.Path('M 718.3333333	26 C 718.3333333	25	743	25	743	25.66666667 L 753	36.66666667 C 752	46.66666667	711.6666667	45.33333333	709	38.33333333 L 718.3333333	26 Z');
 	fig_m2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_m2);
 
-var fig_m3 = new fabric.Path('M 1058.5	21.5 L 1075.5	38 L 1060.5	57 C 1052	56	1050.5	20.5	1058.5	21.5 Z');
+var fig_m3 = new fabric.Path('M 705.6666667	14.33333333 L 717	25.33333333 L 707	38 C 701.3333333	37.33333333	700.3333333	13.66666667	705.6666667	14.33333333 Z');
 	fig_m3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_m3);
 
-var fig_m4 = new fabric.Path('M 1129	20.5 L 1116	37.5 L 1131	54 C 1140	56	1140.5	23	1129	20.5 Z');
+var fig_m4 = new fabric.Path('M 752.6666667	13.66666667 L 744	25 L 754	36 C 760	37.33333333	760.3333333	15.33333333	752.6666667	13.66666667 Z');
 	fig_m4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_m4);
 
 	//+1800 +160 =1960
 
-var fig_n1 = new fabric.Path('M 1169	36 L 1150	22.5 C 1149.5	11	1210	10.5	1211	22 L 1191.5	36 C 1192.5	32	1170.5	30	1169	36 Z');
+var fig_n1 = new fabric.Path('M 779.3333333	24 L 766.6666667	15 C 766.3333333	7.333333333	806.6666667	7	807.3333333	14.66666667 L 794.3333333	24 C 795	21.33333333	780.3333333	20	779.3333333	24 Z');
 	fig_n1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_n1);
-var text = new fabric.Text('14', { left: 1160, top: 62 });
+var text = new fabric.Text('14', { left: 765, top: 38 });
 canvas.add(text);
-var fig_n2 = new fabric.Path('M 1167.5	37 L 1150	24 C 1143.5	24	1145	57	1151	57 L 1167.5	46.5 C 1164.5	47	1164	37.5	1167.5	37 Z');
+var fig_n2 = new fabric.Path('M 778.3333333	24.66666667 L 766.6666667	16 C 762.3333333	16	763.3333333	38	767.3333333	38 L 778.3333333	31 C 776.3333333	31.33333333	776	25	778.3333333	24.66666667 Z');
 	fig_n2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_n2);
 
-var fig_n3 = new fabric.Path('M 1168	48.5 L 1151.5	58.5 C 1151.5	72.5	1211.5	70.5	1211.5	58 L 1192.5	48.5 C 1193	52.5	1168.5	53	1168	48.5 Z');
+var fig_n3 = new fabric.Path('M 778.6666667 32.33333333 L 767.6666667	39 C 767.6666667	48.33333333	807.6666667	47	807.6666667	38.66666667 L 795	32.33333333 C 795.3333333	35	779	35.33333333	778.6666667	32.33333333 Z');
 	fig_n3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_n3);
 
-var fig_n4 = new fabric.Path('M 1193.5	36.5 L 1210	24.5 C 1215.5	22	1221.5	52	1212	56.5 L 1193.5	47.5 C 1196	48	1197.5	37.5	1193.5	36.5 Z');
+var fig_n4 = new fabric.Path('M 795.6666667	24.33333333 L 806.6666667	16.33333333 C 810.3333333	14.66666667	814.3333333	34.66666667	808	37.66666667 L 795.6666667	31.66666667 C 797.3333333	32	798.3333333	25	795.6666667	24.33333333 Z');
 	fig_n4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_n4);
 
-var fig_n5 = new fabric.Path('M 1170.5	38 C 1171.5	33	1192	34.5	1191.5	38 C 1196	37.5	1195.5	47	1191.5	47.5 C 1192	50.5	1172	52.5	1171	47.5 C 1166	46	1166.5	36.5	1170.5	38 Z');
+var fig_n5 = new fabric.Path('M 780.3333333	25.33333333 C 781	22	794.6666667	23	794.3333333	25.33333333 C 797.3333333	25	797	31.33333333	794.3333333	31.66666667 C 794.6666667	33.66666667	781.3333333	35	780.6666667	31.66666667 C 777.3333333	30.66666667	777.6666667	24.33333333	780.3333333	25.33333333 Z');
 	fig_n5.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_n5);
 
 	// +160 
 
-var fig_o1 = new fabric.Path('M 1249	36 L 1230	22.5 C 1229.5	11	1290	10.5	1291	22 L 1271.5	36 C 1272.5	32	1250.5	30	1249	36 Z');
+var fig_o1 = new fabric.Path('M 832.6666667	24 L 820	15 C 819.6666667	7.333333333	860	7	860.6666667	14.66666667 L 847.6666667	24 C 848.3333333	21.33333333	833.6666667	20	832.6666667	24 Z');
 	fig_o1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_o1);
-var text = new fabric.Text('15', { left: 1240, top: 62 });
+var text = new fabric.Text('15', { left: 822, top: 38 });
 canvas.add(text);
-var fig_o2 = new fabric.Path('M 1247.5	37 L 1230	24 C 1223.5	24	1225	57	1231	57 L 1247.5	46.5 C 1244.5	47	1244	37.5	1247.5	37 Z');
+var fig_o2 = new fabric.Path('M 831.6666667	24.66666667 L 820	16 C 815.6666667	16	816.6666667	38	820.6666667	38 L 831.6666667	31 C 829.6666667	31.33333333	829.3333333	25	831.6666667	24.66666667 Z');
 	fig_o2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_o2);
 
-var fig_o3 = new fabric.Path('M 1248	48.5 L 1231.5	58.5 C 1231.5	72.5	1291.5	70.5	1291.5	58 L 1272.5	48.5 C 1273	52.5	1248.5	53	1248	48.5 Z');
+var fig_o3 = new fabric.Path('M 832	32.33333333 L 821	39 C 821	48.33333333	861	47	861	38.66666667 L 848.3333333	32.33333333 C 848.6666667	35	832.3333333	35.33333333	832	32.33333333 Z');
 	fig_o3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_o3);
 
-var fig_o4 = new fabric.Path('M 1273.5	36.5 L 1290	24.5 C 1295.5	22	1301.5	52	1292	56.5 L 1273.5	47.5 C 1276	48	1277.5	37.5	1273.5	36.5 Z');
+var fig_o4 = new fabric.Path('M 849	24.33333333 L 860	16.33333333 C 863.6666667	14.66666667	867.6666667	34.66666667	861.3333333	37.66666667 L 849	31.66666667 C 850.6666667	32	851.6666667	25	849	24.33333333 Z');
 	fig_o4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_o4);
 
-var fig_o5 = new fabric.Path('M 1250.5	38 C 1251.5	33	1272	34.5	1271.5	38 C 1276	37.5	1275.5	47	1271.5	47.5 C 1272	50.5	1252	52.5	1251	47.5 C 1246	46	1246.5	36.5	1250.5	38 Z');
+var fig_o5 = new fabric.Path('M 833.6666667	25.33333333 C 834.3333333	22	848	23	847.6666667	25.33333333 C 850.6666667	25	850.3333333	31.33333333	847.6666667	31.66666667 C 848	33.66666667	834.6666667	35	834	31.66666667 C 830.6666667	30.66666667	831	24.33333333	833.6666667	25.33333333 Z');
 	fig_o5.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_o5);
 
 	// +160 
 
-var fig_p1 = new fabric.Path('M 1329	36	 L 1310	22.5 C 1309.5	11	1370	10.5	1371	22 L 1351.5	36 C 1352.5	32	1330.5	30	1329	36 Z');
+var fig_p1 = new fabric.Path('M 886	24 L 873.3333333	15 C 873	7.333333333	913.3333333	7	914	14.66666667 L 901	24 C 901.6666667	21.33333333	887	20	886	24 Z');
 	fig_p1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_p1);
-var text = new fabric.Text('16', { left: 1320, top: 62 });
+var text = new fabric.Text('16', { left: 873, top: 38 });
 canvas.add(text);
-var fig_p2 = new fabric.Path('M 1327.5	37 L 1310	24 C 1303.5	24	1305	57	1311	57 L 1327.5	46.5 C 1324.5	47	1324	37.5	1327.5	37 Z');
+var fig_p2 = new fabric.Path('M 885	24.66666667	 L 873.3333333	16 C 869	16	870	38	874	38 L 885	31 C 883	31.33333333	882.6666667	25	885	24.66666667 Z');
 	fig_p2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_p2);
 
-var fig_p3 = new fabric.Path('M 1328	48.5 L 1311.5	58.5 C 1311.5	72.5	1371.5	70.5	1371.5	58 L 1352.5	48.5 C 1353	52.5	1328.5	53	1328	48.5 Z');
+var fig_p3 = new fabric.Path('M 885.3333333	32.33333333 L 874.3333333	39 C 874.3333333	48.33333333	914.3333333	47	914.3333333	38.66666667 L 901.6666667	32.33333333 C 902	35	885.6666667	35.33333333	885.3333333	32.33333333 Z');
 	fig_p3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_p3);
 
-var fig_p4 = new fabric.Path('M 1353.5	36.5 L 1370	24.5 C 1375.5	22	1381.5	52	1372	56.5 L 1353.5	47.5 C 1356	48	1357.5	37.5	1353.5	36.5 Z');
+var fig_p4 = new fabric.Path('M 902.3333333	24.33333333 L 913.3333333	16.33333333 C 917	14.66666667	921	34.66666667	914.6666667	37.66666667 L 902.3333333	31.66666667 C 904	32	905	25	902.3333333	24.33333333 Z');
 	fig_p4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_p4);
 
-var fig_p5 = new fabric.Path('M 1330.5	38 C 1331.5	33	1352	34.5	1351.5	38 C 1356	37.5	1355.5	47	1351.5	47.5 C 1352	50.5	1332	52.5	1331	47.5 C 1326	46	1326.5	36.5	1330.5	38 Z');
+var fig_p5 = new fabric.Path('M 887	25.33333333 C 887.6666667	22	901.3333333	23	901	25.33333333 C 904	25	903.6666667	31.33333333	901	31.66666667 C 901.3333333	33.66666667	888	35	887.3333333	31.66666667 C 884	30.66666667	884.3333333	24.33333333	887	25.33333333 Z');
 	fig_p5.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_p5);
 ///
 //Parte inferior
 ///
-var fig_aa1 = new fabric.Path('M 39	136 L 20	122.5 C 19.5	111	80	110.5	81	122 L 61.5	136 C 62.5	132	40.5	130	39	136 Z');
+var fig_aa1 = new fabric.Path('M 26	90.66666667	 L 13.33333333	81.66666667 C 13	74	53.33333333	73.66666667	54	81.33333333 L 41	90.66666667 C 41.66666667	88	27	86.66666667	26	90.66666667 Z');
 	fig_aa1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_aa1);
-var text = new fabric.Text('17', { left: 30, top: 180 });
+var text = new fabric.Text('17', { left: 13, top: 120 });
 canvas.add(text);
 
-var fig_aa2 = new fabric.Path('M 37.5	137 L 20	124 C 13.5	124	15	157	21	157 L 37.5	146.5 C 34.5	147	34	137.5	37.5	137 Z');
+var fig_aa2 = new fabric.Path('M 25	91.33333333 L 13.33333333	82.66666667 C 9	82.66666667	10	104.6666667	14	104.6666667 L 25	97.66666667 C 23	98	22.66666667	91.66666667	25	91.33333333 Z');
 	fig_aa2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_aa2);
 
-var fig_aa3 = new fabric.Path('M 38	148.5 L 21.5	158.5 C 21.5	172.5	81.5	170.5	81.5	158 L 62.5	148.5 C 63	152.5	38.5	153	38	148.5 Z');
+var fig_aa3 = new fabric.Path('M 25.33333333	99 L 14.33333333	105.6666667 C 14.33333333	115	54.33333333	113.6666667	54.33333333	105.3333333 L 41.66666667	99 C 42	101.6666667	25.66666667	102	25.33333333	99 Z');
 	fig_aa3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_aa3);
 
-var fig_aa4 = new fabric.Path('M 63.5	136.5 L 80	124.5 C 85.5	122	91.5	152	82	156.5 L 63.5	147.5 C 66	148	67.5	137.5	63.5	136.5 Z');
+var fig_aa4 = new fabric.Path('M 42.33333333	91 L 53.33333333	83 C 57	81.33333333	61	101.3333333	54.66666667	104.3333333 L 42.33333333	98.33333333 C 44	98.66666667	45	91.66666667	42.33333333	91 Z');
 	fig_aa4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_aa4);
 
-var fig_aa5 = new fabric.Path('M 40.5	138 C 41.5	133	62	134.5	61.5	138 C 66	137.5	65.5	147	61.5	147.5 C 62	150.5	42	152.5	41	147.5 C 36	146	36.5	136.5	40.5	138 Z');
+var fig_aa5 = new fabric.Path('M 27	92 C 27.66666667	88.66666667	41.33333333	89.66666667	41	92 C 44	91.66666667	43.66666667	98	41	98.33333333 C 41.33333333	100.3333333	28	101.6666667	27.33333333	98.33333333 C 24	97.33333333	24.33333333	91	27	92 Z');
 	fig_aa5.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_aa5);
 	//
 
-var fig_bb1 = new fabric.Path('M 114	136 L 95	122.5 C 94.5	111	155	110.5	156	122 L 136.5	136 C 137.5	132	115.5	130	114	136 Z');
+var fig_bb1 = new fabric.Path('M 76	90.66666667 L 63.33333333	81.66666667 C 63	74	103.3333333	73.66666667	104	81.33333333 L 91	90.66666667 C 91.66666667	88	77	86.66666667	76	90.66666667 Z');
 	fig_bb1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_bb1);
-var text = new fabric.Text('18', { left: 100, top: 180 });
+var text = new fabric.Text('18', { left: 63, top: 120 });
 canvas.add(text);
 
-var fig_bb2 = new fabric.Path('M 112.5	137 L 95	124 C 88.5	124	90	157	96	157 L 112.5	146.5 C 109.5	147	109	137.5	112.5	137 Z');
+var fig_bb2 = new fabric.Path('M 75	91.33333333 L 63.33333333	82.66666667 C 59	82.66666667	60	104.6666667	64	104.6666667 L 75	97.66666667	 C 73	98	72.66666667	91.66666667	75	91.33333333 Z');
 	fig_bb2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_bb2);
 
-var fig_bb3 = new fabric.Path('M 113	148.5 L 96.5	158.5 C 96.5	172.5	156.5	170.5	156.5	158 L 137.5	148.5 C 138	152.5	113.5	153	113	148.5 Z');
+var fig_bb3 = new fabric.Path('M 75.33333333	99 L 64.33333333	105.6666667 C 64.33333333	115	104.3333333	113.6666667	104.3333333	105.3333333 L 91.66666667	99 C 92	101.6666667	75.66666667	102	75.33333333	99 Z');
 	fig_bb3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_bb3);
 
-var fig_bb4 = new fabric.Path('M 138.5	136.5 L 155	124.5 C 160.5	122	166.5	152	157	156.5 L 138.5	147.5 C 141	148	142.5	137.5	138.5	136.5 Z');
+var fig_bb4 = new fabric.Path('M 92.33333333	91 L 103.3333333	83 C 107	81.33333333	111	101.3333333	104.6666667	104.3333333 L 92.33333333	98.33333333 C 94	98.66666667	95	91.66666667	92.33333333	91 Z');
 	fig_bb4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_bb4);
 
-var fig_bb5 = new fabric.Path('M 115.5	138 C 116.5	133	137	134.5	136.5	138 C 141	137.5	140.5	147	136.5	147.5 C 137	150.5	117	152.5	116	147.5 C 111	146	111.5	136.5	115.5	138 Z');
+var fig_bb5 = new fabric.Path('M 77	92 C 77.66666667	88.66666667	91.33333333	89.66666667	91	92 C 94	91.66666667	93.66666667	98	91	98.33333333 C 91.33333333	100.3333333	78	101.6666667	77.33333333	98.33333333 C 74	97.33333333	74.33333333	91	77	92 Z');
 	fig_bb5.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_bb5);
 
 	//
 
-var fig_cc1 = new fabric.Path('M 189	136 L 170	122.5 C 169.5	111	230	110.5	231	122 L 211.5	136 C 212.5	132	190.5	130	189	136 Z');
+var fig_cc1 = new fabric.Path('M 126	90.66666667 L 113.3333333	81.66666667 C 113	74	153.3333333	73.66666667	154	81.33333333 L 141	90.66666667 C 141.6666667	88	127	86.66666667	126	90.66666667 Z');
 	fig_cc1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_cc1);
-var text = new fabric.Text('19', { left: 180, top: 180 });
+var text = new fabric.Text('19', { left: 114, top: 120 });
 canvas.add(text);
 
-var fig_cc2 = new fabric.Path('M 187.5	137 L 170	124 C 163.5	124	165	157	171	157 L 187.5	146.5 C 184.5	147	184	137.5	187.5	137 Z');
+var fig_cc2 = new fabric.Path('M 125	91.33333333 L 113.3333333	82.66666667 C 109	82.66666667	110	104.6666667	114	104.6666667 L 125	97.66666667 C 123	98	122.6666667	91.66666667	125	91.33333333 Z');
 	fig_cc2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_cc2);
 
-var fig_cc3 = new fabric.Path('M 188	148.5 L 171.5	158.5 C 171.5	172.5	231.5	170.5	231.5	158 L 212.5	148.5 C 213	152.5	188.5	153	188	148.5 Z');
+var fig_cc3 = new fabric.Path('M 125.3333333	99 L 114.3333333	105.6666667 C 114.3333333	115	154.3333333	113.6666667	154.3333333	105.3333333 L 141.6666667	99 C 142	101.6666667	125.6666667	102	125.3333333	99 Z');
 	fig_cc3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_cc3);
 
-var fig_cc4 = new fabric.Path('M 213.5	136.5 L 230	124.5 C 235.5	122	241.5	152	232	156.5 L 213.5	147.5 C 216	148	217.5	137.5	213.5	136.5 Z');
+var fig_cc4 = new fabric.Path('M 142.3333333	91 L 153.3333333	83 C 157	81.33333333	161	101.3333333	154.6666667	104.3333333 L 142.3333333	98.33333333 C 144	98.66666667	145	91.66666667	142.3333333	91 Z');
 	fig_cc4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_cc4);
 
-var fig_cc5 = new fabric.Path('M 190.5	138	 C 191.5	133	212	134.5	211.5	138 C 216	137.5	215.5	147	211.5	147.5 C 212	150.5	192	152.5	191	147.5 C 186	146	186.5	136.5	190.5	138 Z');
+var fig_cc5 = new fabric.Path('M 127	92 C 127.6666667	88.66666667	141.3333333	89.66666667	141	92 C 144	91.66666667	143.6666667	98	141	98.33333333 C 141.3333333	100.3333333	128	101.6666667	127.3333333	98.33333333 C 124	97.33333333	124.3333333	91	127	92 Z');
 	fig_cc5.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_cc5);
 
 	//
 
-var fig_dd1 = new fabric.Path('M 266.5	136.5 C 266.5	137.5	305	137	305	136 L 317.5	119 C 318	110.5	251	108.5	250	120 L 266.5	136.5 Z');
+var fig_dd1 = new fabric.Path('M 177.6666667	91 C 177.6666667	91.66666667	203.3333333	91.33333333	203.3333333	90.66666667 L 211.6666667	79.33333333 C 212	73.66666667	167.3333333	72.33333333	166.6666667	80 L 177.6666667	91 Z');
 	fig_dd1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_dd1);
-var text = new fabric.Text('20', { left: 260, top: 180 });
+var text = new fabric.Text('20', { left: 168, top: 120 });
 canvas.add(text);
 
-var fig_dd2 = new fabric.Path('M 267.5	139 C 267.5	137.5	304.5	137.5	304.5	138.5 L 319.5	155 C 318	170	257.5	168	253.5	157.5 L 267.5	139 Z');
+var fig_dd2 = new fabric.Path('M 178.3333333	92.66666667 C 178.3333333	91.66666667	203	91.66666667	203	92.33333333 L 213	103.3333333 C 212	113.3333333	171.6666667	112	169	105 L 178.3333333	92.66666667 Z');
 	fig_dd2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_dd2);
 
-var fig_dd3 = new fabric.Path('M 248.5	121.5 L 265.5	138 L 250.5	157 C 242	156	240.5	120.5	248.5	121.5 Z');
+var fig_dd3 = new fabric.Path('M 165.6666667	81 L 177	92 L 167	104.6666667 C 161.3333333	104	160.3333333	80.33333333	165.6666667	81 Z');
 	fig_dd3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_dd3);
 
-var fig_dd4 = new fabric.Path('M 319	120.5 L 306	137.5 L 321	154 C 330	156	330.5	123	319	120.5 Z');
+var fig_dd4 = new fabric.Path('M 212.6666667	80.33333333 L 204	91.66666667 L 214	102.6666667 C 220	104	220.3333333	82	212.6666667	80.33333333 Z');
 	fig_dd4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_dd4);
 
 	//+180
 
-var fig_ee1 = new fabric.Path('M 356.5	136.5 C 356.5	137.5	395	137	395	136 L 407.5	119 C 408	110.5	341	108.5	340	120 L 356.5	136.5 Z');
+var fig_ee1 = new fabric.Path('M 237.6666667	91 C 237.6666667	91.66666667	263.3333333	91.33333333	263.3333333	90.66666667 L 271.6666667	79.33333333 C 272	73.66666667	227.3333333	72.33333333	226.6666667	80 L 237.6666667	91 Z');
 	fig_ee1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_ee1);
-var text = new fabric.Text('21', { left: 350, top: 180 });
+var text = new fabric.Text('21', { left: 232, top: 120 });
 canvas.add(text);
 
-var fig_ee2 = new fabric.Path('M 357.5	139 C 357.5	137.5	394.5	137.5	394.5	138.5 L 409.5	155 C 408	170	347.5	168	343.5	157.5 L 357.5	139 Z');
+var fig_ee2 = new fabric.Path('M 238.3333333	92.66666667 C 238.3333333	91.66666667	263	91.66666667	263	92.33333333 L 273	103.3333333 C 272	113.3333333	231.6666667	112	229	105 L 238.3333333	92.66666667 Z');
 	fig_ee2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_ee2);
 
-var fig_ee3 = new fabric.Path('M 338.5	121.5 L 355.5	138 L 340.5	157 C 332	156	330.5	120.5	338.5	121.5 Z');
+var fig_ee3 = new fabric.Path('M 225.6666667	81 L 237	92 L 227	104.6666667 C 221.3333333	104	220.3333333	80.33333333	225.6666667	81 Z');
 	fig_ee3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_ee3);
 
-var fig_ee4 = new fabric.Path('M 409	120.5 L 396	137.5 L 411	154 C 420	156	420.5	123	409	120.5 Z');
+var fig_ee4 = new fabric.Path('M 272.6666667	80.33333333 L 264	91.66666667 L 274	102.6666667 C 280	104	280.3333333	82	272.6666667	80.33333333 Z');
 	fig_ee4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_ee4);
 
 	//+180
 
-var fig_ff1 = new fabric.Path('M 446.5	136.5 C 446.5	137.5	485	137	485	136 L 497.5	119 C 498	110.5	431	108.5	430	120 L 446.5	136.5 Z');
+var fig_ff1 = new fabric.Path('M 297.6666667	91 C 297.6666667	91.66666667	323.3333333	91.33333333	323.3333333	90.66666667 L 331.6666667	79.33333333 C 332	73.66666667	287.3333333	72.33333333	286.6666667	80 L 297.6666667	91 Z');
 	fig_ff1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_ff1);
-var text = new fabric.Text('22', { left: 440, top: 180 });
+var text = new fabric.Text('22', { left: 290, top: 120 });
 canvas.add(text);
 
-var fig_ff2 = new fabric.Path('M 447.5	139 C 447.5	137.5	484.5	137.5	484.5	138.5 L 499.5	155 C 498	170	437.5	168	433.5	157.5 L 447.5	139 Z');
+var fig_ff2 = new fabric.Path('M 298.3333333	92.66666667 C 298.3333333	91.66666667	323	91.66666667	323	92.33333333 L 333	103.3333333 C 332	113.3333333	291.6666667	112	289	105 L 298.3333333	92.66666667 Z');
 	fig_ff2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_ff2);
 
-var fig_ff3 = new fabric.Path('M 428.5	121.5 L 445.5	138 L 430.5	157 C 422	156	420.5	120.5	428.5	121.5 Z');
+var fig_ff3 = new fabric.Path('M 285.6666667	81 L 297	92 L 287	104.6666667 C 281.3333333	104	280.3333333	80.33333333	285.6666667	81 Z');
 	fig_ff3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_ff3);
 
-var fig_ff4 = new fabric.Path('M 499	120.5 L 486	137.5 L 501	154 C 510	156	510.5	123	499	120.5 Z');
+var fig_ff4 = new fabric.Path('M 332.6666667	80.33333333 L 324	91.66666667 L 334	102.6666667 C 340	104	340.3333333	82	332.6666667	80.33333333 Z');
 	fig_ff4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_ff4);
 
 	//+180
 
-var fig_gg1 = new fabric.Path('M 536.5	136.5 C 536.5	137.5	575	137	575	136 L 587.5	119 C 588	110.5	521	108.5	520	120 L 536.5	136.5 Z');
+var fig_gg1 = new fabric.Path('M 357.6666667	91 C 357.6666667	91.66666667	383.3333333	91.33333333	383.3333333	90.66666667 L 391.6666667	79.33333333 C 392	73.66666667	347.3333333	72.33333333	346.6666667	80 L 357.6666667	91 Z');
 	fig_gg1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_gg1);
-var text = new fabric.Text('23', { left: 530, top: 180 });
+var text = new fabric.Text('23', { left: 350, top: 120 });
 canvas.add(text);
 
-var fig_gg2 = new fabric.Path('M 537.5	139 C 537.5	137.5	574.5	137.5	574.5	138.5 L 589.5	155 C 588	170	527.5	168	523.5	157.5 L 537.5	139 Z');
+var fig_gg2 = new fabric.Path('M 358.3333333	92.66666667 C 358.3333333	91.66666667	383	91.66666667	383	92.33333333 L 393	103.3333333 C 392	113.3333333	351.6666667	112	349	105 L 358.3333333	92.66666667 Z');
 	fig_gg2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_gg2);
 
-var fig_gg3 = new fabric.Path('M 518.5	121.5 L 535.5	138 L 520.5	157 C 512	156	510.5	120.5	518.5	121.5 Z');
+var fig_gg3 = new fabric.Path('M 392.6666667	80.33333333 L 384	91.66666667 L 394	102.6666667 C 400	104	400.3333333	82	392.6666667	80.33333333 Z');
 	fig_gg3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_gg3);
 
-var fig_gg4 = new fabric.Path('M 589	120.5 L 576	137.5 L 591	154 C 600	156	600.5	123	589	120.5 Z');
+var fig_gg4 = new fabric.Path('M 345.6666667	81 L 357	92 L 347	104.6666667 C 341.3333333	104	340.3333333	80.33333333	345.6666667	81 Z');
 	fig_gg4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_gg4);
 
 	//+180
 
-var fig_hh1 = new fabric.Path('M 626.5	136.5 C 626.5	137.5	665	137	665	136 L 677.5	119 C 678	110.5	611	108.5	610	120 L 626.5	136.5 Z');
+var fig_hh1 = new fabric.Path('M 417.6666667	91 C 417.6666667	91.66666667	443.3333333	91.33333333	443.3333333	90.66666667 L 451.6666667	79.33333333 C 452	73.66666667	407.3333333	72.33333333	406.6666667	80 L 417.6666667	91 Z');
 	fig_hh1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_hh1);
-var text = new fabric.Text('24', { left: 620, top: 180 });
+var text = new fabric.Text('24', { left: 410, top: 120 });
 canvas.add(text);
 
-var fig_hh2 = new fabric.Path('M 627.5	139 C 627.5	137.5	664.5	137.5	664.5	138.5 L 679.5	155 C 678	170	617.5	168	613.5	157.5 L 627.5	139 Z');
+var fig_hh2 = new fabric.Path('M 418.3333333	92.66666667 C 418.3333333	91.66666667	443	91.66666667	443	92.33333333 L 453	103.3333333 C 452	113.3333333	411.6666667	112	409	105 L 418.3333333	92.66666667 Z');
 	fig_hh2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_hh2);
 
-var fig_hh3 = new fabric.Path('M 608.5	121.5 L 625.5	138 L 610.5	157 C 602	156	600.5	120.5	608.5	121.5 Z');
+var fig_hh3 = new fabric.Path('M 405.6666667	81 L 417	92 L 407	104.6666667 C 401.3333333	104	400.3333333	80.33333333	405.6666667	81 Z');
 	fig_hh3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_hh3);
 
-var fig_hh4 = new fabric.Path('M 679	120.5 L 666	137.5 L 681	154 C 690	156	690.5	123	679	120.5 Z');
+var fig_hh4 = new fabric.Path('M 452.6666667	80.33333333 L 444	91.66666667 L 454	102.6666667 C 460	104	460.3333333	82	452.6666667	80.33333333 Z');
 	fig_hh4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_hh4);
 
 	//+180
 
-var fig_ii1 = new fabric.Path('M 716.5	136.5 C 716.5	137.5	755	137	755	136 L 767.5	119 C 768	110.5	701	108.5	700	120 L 716.5	136.5 Z');
+var fig_ii1 = new fabric.Path('M 477.6666667	91 C 477.6666667	91.66666667	503.3333333	91.33333333	503.3333333	90.66666667 L 511.6666667	79.33333333 C 512	73.66666667	467.3333333	72.33333333	466.6666667	80 L 477.6666667	91 Z');
 	fig_ii1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_ii1);
-var text = new fabric.Text('25', { left: 710, top: 180 });
+var text = new fabric.Text('25', { left: 470, top: 120 });
 canvas.add(text);
 
-var fig_ii2 = new fabric.Path('M 717.5	139 C 717.5	137.5	754.5	137.5	754.5	138.5 L 769.5	155 C 768	170	707.5	168	703.5	157.5 L 717.5	139 Z');
+var fig_ii2 = new fabric.Path('M 478.3333333	92.66666667 C 478.3333333	91.66666667	503	91.66666667	503	92.33333333 L 513	103.3333333 C 512	113.3333333	471.6666667	112	469	105 L 478.3333333	92.66666667 Z');
 	fig_ii2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_ii2);
 
-var fig_ii3 = new fabric.Path('M 698.5	121.5 L 715.5	138 L 700.5	157 C 692	156	690.5	120.5	698.5	121.5 Z');
+var fig_ii3 = new fabric.Path('M 465.6666667	81 L 477	92 L 467	104.6666667	C 461.3333333	104	460.3333333	80.33333333	465.6666667	81 Z');
 	fig_ii3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_ii3);
 
-var fig_ii4 = new fabric.Path('M 769	120.5 L 756	137.5 L 771	154 C 780	156	780.5	123	769	120.5 Z');
+var fig_ii4 = new fabric.Path('M 512.6666667	80.33333333 L 504	91.66666667 L 514	102.6666667 C520	104	520.3333333	82	512.6666667	80.33333333 Z');
 	fig_ii4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_ii4);
 
 	//+180
 
-var fig_jj1 = new fabric.Path('M 806.5	136.5 C 806.5	137.5	845	137	845	136 L 857.5	119 C 858	110.5	791	108.5	790	120 L 806.5	136.5 Z');
+var fig_jj1 = new fabric.Path('M 537.6666667	91 C 537.6666667	91.66666667	563.3333333	91.33333333	563.3333333	90.66666667 L 571.6666667	79.33333333 C 572	73.66666667	527.3333333	72.33333333	526.6666667	80 L 537.6666667	91 Z');
 	fig_jj1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_jj1);
-var text = new fabric.Text('26', { left: 800, top: 180 });
+var text = new fabric.Text('26', { left: 530, top: 120 });
 canvas.add(text);
 
-var fig_jj2 = new fabric.Path('M 807.5	139 C 807.5	137.5	844.5	137.5	844.5	138.5 L 859.5	155 C 858	170	797.5	168	793.5	157.5 L 807.5	139 Z');
+var fig_jj2 = new fabric.Path('M 538.3333333	92.66666667 C 538.3333333	91.66666667	563	91.66666667	563	92.33333333 L 573	103.3333333 C 572	113.3333333	531.6666667	112	529	105 L 538.3333333	92.66666667 Z');
 	fig_jj2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_jj2);
 
-var fig_jj3 = new fabric.Path('M 788.5	121.5 L 805.5	138 L 790.5	157 C 782	156	780.5	120.5	788.5	121.5 Z');
+var fig_jj3 = new fabric.Path('M 525.6666667	81 L 537	92 L 527	104.6666667 C 521.3333333	104	520.3333333	80.33333333	525.6666667	81 Z');
 	fig_jj3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_jj3);
 
-var fig_jj4 = new fabric.Path('M 859	120.5 L 846	137.5 L 861	154 C 870	156	870.5	123	859	120.5 Z');
+var fig_jj4 = new fabric.Path('M 572.6666667	80.33333333 L 564	91.66666667 L 574	102.6666667 C 580	104	580.3333333	82	572.6666667	80.33333333 Z');
 	fig_jj4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_jj4);
 
 	//+180
 
-var fig_kk1 = new fabric.Path('M 896.5	136.5 C 896.5	137.5	935	137	935	136 L 947.5	119 C 948	110.5	881	108.5	880	120 L 896.5	136.5 Z');
+var fig_kk1 = new fabric.Path('M 597.6666667	91 C 597.6666667	91.66666667	623.3333333	91.33333333	623.3333333	90.66666667 L 631.6666667	79.33333333 C 632	73.66666667	587.3333333	72.33333333	586.6666667	80 L 597.6666667	91 Z');
 	fig_kk1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_kk1);
-var text = new fabric.Text('27', { left: 890, top: 180 });
+var text = new fabric.Text('27', { left: 590, top: 120 });
 canvas.add(text);
 
-var fig_kk2 = new fabric.Path('M 897.5	139 C 897.5	137.5	934.5	137.5	934.5	138.5 L 949.5	155 C 948	170	887.5	168	883.5	157.5 L 897.5	139 Z');
+var fig_kk2 = new fabric.Path('M 598.3333333	92.66666667 C 598.3333333	91.66666667	623	91.66666667	623	92.33333333 L 633	103.3333333 C 632	113.3333333	591.6666667	112	589	105 L 598.3333333	92.66666667 Z');
 	fig_kk2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_kk2);
 
-var fig_kk3 = new fabric.Path('M 878.5	121.5 L 895.5	138 L 880.5	157 C 872	156	870.5	120.5	878.5	121.5 Z');
+var fig_kk3 = new fabric.Path('M 585.6666667	81 L 597	92 L 587	104.6666667 C 581.3333333	104	580.3333333	80.33333333	585.6666667	81 Z');
 	fig_kk3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_kk3);
 
-var fig_kk4 = new fabric.Path('M 949	120.5 L 936	137.5 L 951	154 C 960	156	960.5	123	949	120.5 Z');
+var fig_kk4 = new fabric.Path('M 632.6666667	80.33333333 L 624	91.66666667 L 634	102.6666667 C 640	104	640.3333333	82	632.6666667	80.33333333 Z');
 	fig_kk4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_kk4);
 
 	//+180
 
-var fig_ll1 = new fabric.Path('M 986.5	136.5 C 986.5	137.5	1025	137	1025	136 L 1037.5	119 C 1038	110.5	971	108.5	970	120 L 986.5	136.5 Z');
-
+var fig_ll1 = new fabric.Path('M 657.6666667	91 C 657.6666667	91.66666667	683.3333333	91.33333333	683.3333333	90.66666667 L 691.6666667	79.33333333 C 692	73.66666667	647.3333333	72.33333333	646.6666667	80 L 657.6666667	91 Z');
 	fig_ll1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_ll1);
-var text = new fabric.Text('28', { left: 980, top: 180 });
+var text = new fabric.Text('28', { left: 650, top: 120 });
 canvas.add(text);
 
-var fig_ll2 = new fabric.Path('M 987.5	139 C 987.5	137.5	1024.5	137.5	1024.5	138.5 L 1039.5	155 C 1038	170	977.5	168	973.5	157.5 L 987.5	139 Z');
+var fig_ll2 = new fabric.Path('M 658.3333333	92.66666667 C 658.3333333	91.66666667	683	91.66666667	683	92.33333333 L 693	103.3333333 C 692	113.3333333	651.6666667	112	649	105 L 658.3333333	92.66666667 Z');
 	fig_ll2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_ll2);
 
-var fig_ll3 = new fabric.Path('M 968.5	121.5 L 985.5	138 L 970.5	157 C 962	156	960.5	120.5	968.5	121.5 Z');
+var fig_ll3 = new fabric.Path('M 645.6666667	81 L 657	92 L 647	104.6666667 C 641.3333333	104	640.3333333	80.33333333	645.6666667	81 Z');
 	fig_ll3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_ll3);
 
-var fig_ll4 = new fabric.Path('M 1039	120.5 L 1026	137.5 L 1041	154 C 1050	156	1050.5	123	1039	120.5 Z');
+var fig_ll4 = new fabric.Path('M 692.6666667	80.33333333 L 684	91.66666667 L 694	102.6666667 C 700	104	700.3333333	82	692.6666667	80.33333333 Z');
 	fig_ll4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_ll4);
 
 	//+180
 
-var fig_mm1 = new fabric.Path('M 1076.5	136.5 C 1076.5	137.5	1115	137	1115	136 L 1127.5	119 C 1128	110.5	1061	108.5	1060	120 L 1076.5	136.5 Z');
+var fig_mm1 = new fabric.Path('M 717.6666667	91 C 717.6666667	91.66666667	743.3333333	91.33333333	743.3333333	90.66666667 L 751.6666667	79.33333333 C 752	73.66666667	707.3333333	72.33333333	706.6666667	80 L 717.6666667	91 Z');
 	fig_mm1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_mm1);
-var text = new fabric.Text('29', { left: 1070, top: 180 });
+var text = new fabric.Text('29', { left: 710, top: 120 });
 canvas.add(text);
 
-var fig_mm2 = new fabric.Path('M 1077.5	139 C 1077.5	137.5	1114.5	137.5	1114.5	138.5 L 1129.5	155 C 1128	170	1067.5	168	1063.5	157.5 L 1077.5	139 Z');
+var fig_mm2 = new fabric.Path('M 718.3333333	92.66666667 C 718.3333333	91.66666667	743	91.66666667	743	92.33333333 L 753	103.3333333 C 752	113.3333333	711.6666667	112	709	105 L 718.3333333	92.66666667 Z');
 	fig_mm2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_mm2);
 
-var fig_mm3 = new fabric.Path('M 1058.5	121.5 L 1075.5	138 L 1060.5	157 C 1052	156	1050.5	120.5	1058.5	121.5 Z');
+var fig_mm3 = new fabric.Path('M 705.6666667	81 L 717	92 L 707	104.6666667 C 701.3333333	104	700.3333333	80.33333333	705.6666667	81 Z');
 	fig_mm3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_mm3);
 
-var fig_mm4 = new fabric.Path('M 1129	120.5 L 1116	137.5 L 1131	154 C 1140	156	1140.5	123	1129	120.5 Z');
+var fig_mm4 = new fabric.Path('M 752.6666667	80.33333333 L 744	91.66666667 L 754	102.6666667 C 760	104	760.3333333	82	752.6666667	80.33333333 Z');
 	fig_mm4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_mm4);
 
 	//+1800 +160 =1960
 
-var fig_nn1 = new fabric.Path('M 1169	136 L 1150	122.5 C 1149.5	111	1210	110.5	1211	122 L 1191.5	136 C 1192.5	132	1170.5	130	1169	136 Z');
+var fig_nn1 = new fabric.Path('M 779.3333333	90.66666667 L 766.6666667	81.66666667 C 766.3333333	74	806.6666667	73.66666667	807.3333333	81.33333333 L 794.3333333	90.66666667 C 795	88	780.3333333	86.66666667	779.3333333	90.66666667 Z');
 	fig_nn1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_nn1);
-var text = new fabric.Text('30', { left: 1160, top: 180 });
+var text = new fabric.Text('30', { left: 770, top: 120 });
 canvas.add(text);
 
-var fig_nn2 = new fabric.Path('M 1167.5	137 L 1150	124 C 1143.5	124	1145	157	1151	157 L 1167.5	146.5 C 1164.5	147	1164	137.5	1167.5	137 Z');
+var fig_nn2 = new fabric.Path('M 778.3333333	91.33333333 L 766.6666667	82.66666667 C 762.3333333	82.66666667	763.3333333	104.6666667	767.3333333	104.6666667 L 778.3333333	97.66666667 C 776.3333333	98	776	91.66666667	778.3333333	91.33333333 Z');
 	fig_nn2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_nn2);
 
-var fig_nn3 = new fabric.Path('M 1168	148.5 L 1151.5	158.5 C 1151.5	172.5	1211.5	170.5	1211.5	158 L 1192.5	148.5 C 1193	152.5	1168.5	153	1168	148.5 Z');
+var fig_nn3 = new fabric.Path('M 778.6666667	99 L 767.6666667	105.6666667 C 767.6666667	115	807.6666667	113.6666667	807.6666667	105.3333333 L 795	99 C 795.3333333	101.6666667	779	102	778.6666667	99 Z');
 	fig_nn3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_nn3);
 
-var fig_nn4 = new fabric.Path('M 1193.5	136.5 L 1210	124.5 C 1215.5	122	1221.5	152	1212	156.5 L 1193.5	147.5 C 1196	148	1197.5	137.5	1193.5	136.5 Z');
+var fig_nn4 = new fabric.Path('M 795.6666667	91 L 806.6666667	83 C 810.3333333	81.33333333	814.3333333	101.3333333	808	104.3333333 L 795.6666667	98.33333333 C 797.3333333	98.66666667	798.3333333	91.66666667	795.6666667	91 Z');
 	fig_nn4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_nn4);
 
-var fig_nn5 = new fabric.Path('M 1170.5	138 C 1171.5	133	1192	134.5	1191.5	138 C 1196	137.5	1195.5	147	1191.5	147.5 C 1192	150.5	1172	152.5	1171	147.5 C 1166	146	1166.5	136.5	1170.5	138 Z');
+var fig_nn5 = new fabric.Path('M 780.3333333	92 C 781	88.66666667	794.6666667	89.66666667	794.3333333	92 C 797.3333333	91.66666667	797	98	794.3333333	98.33333333 C 794.6666667	100.3333333	781.3333333	101.6666667	780.6666667	98.33333333 C 777.3333333	97.33333333	777.6666667	91	780.3333333	92 Z');
 	fig_nn5.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_nn5);
 
 	// +160 
 
-var fig_oo1 = new fabric.Path('M 1249	136 L 1230	122.5 C 1229.5	111	1290	110.5	1291	122 L 1271.5	136 C 1272.5	132	1250.5	130	1249	136 Z');
+var fig_oo1 = new fabric.Path('M 832.6666667	90.66666667 L 820	81.66666667 C 819.6666667	74	860	73.66666667	860.6666667	81.33333333 L 847.6666667	90.66666667 C 848.3333333	88	833.6666667	86.66666667	832.6666667	90.66666667 Z');
 	fig_oo1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_oo1);
-var text = new fabric.Text('31', { left: 1240, top: 180 });
+var text = new fabric.Text('31', { left: 825, top: 120 });
 canvas.add(text);
 
-var fig_oo2 = new fabric.Path('M 1247.5	137 L 1230	124 C 1223.5	124	1225	157	1231	157 L 1247.5	146.5 C 1244.5	147	1244	137.5	1247.5	137 Z');
+var fig_oo2 = new fabric.Path('M 831.6666667	91.33333333 L 820	82.66666667 C 815.6666667	82.66666667	816.6666667	104.6666667	820.6666667	104.6666667 L 831.6666667	97.66666667 C 829.6666667	98	829.3333333	91.66666667	831.6666667	91.33333333 Z');
 	fig_oo2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_oo2);
 
-var fig_oo3 = new fabric.Path('M 1248	148.5 L 1231.5	158.5 C 1231.5	172.5	1291.5	170.5	1291.5	158 L 1272.5	148.5 C 1273	152.5	1248.5	153	1248	148.5 Z');
+var fig_oo3 = new fabric.Path('M 832	99 L 821	105.6666667 C 821	115	861	113.6666667	861	105.3333333 L 848.3333333	99 C 848.6666667	101.6666667	832.3333333	102	832	99 Z');
 	fig_oo3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_oo3);
 
-var fig_oo4 = new fabric.Path('M 1273.5	136.5 L 1290	124.5 C 1295.5	122	1301.5	152	1292	156.5 L 1273.5	147.5 C 1276	148	1277.5	137.5	1273.5	136.5 Z');
+var fig_oo4 = new fabric.Path('M 849	91 L 860	83 C 863.6666667	81.33333333	867.6666667	101.3333333	861.3333333	104.3333333 L 849	98.33333333 C 850.6666667	98.66666667	851.6666667	91.66666667	849	91 Z');
 	fig_oo4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_oo4);
 
-var fig_oo5 = new fabric.Path('M 1250.5	138 C 1251.5	133	1272	134.5	1271.5	138 C 1276	137.5	1275.5	147	1271.5	147.5 C 1272	150.5	1252	152.5	1251	147.5 C 1246	146	1246.5	136.5	1250.5	138 Z');
+var fig_oo5 = new fabric.Path('M 833.6666667	92 C 834.3333333	88.66666667	848	89.66666667	847.6666667	92 C 850.6666667	91.66666667	850.3333333	98	847.6666667	98.33333333	C 848	100.3333333	834.6666667	101.6666667	834	98.33333333 C 830.6666667	97.33333333	831	91	833.6666667	92 Z');
 	fig_oo5.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_oo5);
 
 	// +160 
 
-var fig_pp1 = new fabric.Path('M 1329	136 L 1310	122.5 C 1309.5	111	1370	110.5	1371	122 L 1351.5	136 C 1352.5	132	1330.5	130	1329	136 Z');
+var fig_pp1 = new fabric.Path('M 886	90.66666667 L873.3333333	81.66666667 C 873	74	913.3333333	73.66666667	914	81.33333333 L 901	90.66666667 C 901.6666667	88	887	86.66666667	886	90.66666667 Z');
 	fig_pp1.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_pp1);
-var text = new fabric.Text('32', { left: 1320, top: 180 });
+var text = new fabric.Text('32', { left: 875, top: 120 });
 canvas.add(text);
 
-var fig_pp2 = new fabric.Path('M 1327.5	137 L 1310	124 C 1303.5	124	1305	157	1311	157 L 1327.5	146.5 C 1324.5	147	1324	137.5	1327.5	137 Z');
+var fig_pp2 = new fabric.Path('M 885	91.33333333	 L 873.3333333	82.66666667 C 869	82.66666667	870	104.6666667	874	104.6666667 L 885	97.66666667 C 883	98	882.6666667	91.66666667	885	91.33333333 Z');
 	fig_pp2.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_pp2);
 
-var fig_pp3 = new fabric.Path('M 1328	148.5 L 1311.5	158.5 C 1311.5	172.5	1371.5	170.5	1371.5	158 L 1352.5	148.5 C 1353	152.5	1328.5	153	1328	148.5 Z');
+var fig_pp3 = new fabric.Path('M 885.3333333	99 L 874.3333333	105.6666667 C 874.3333333	115	914.3333333	113.6666667	914.3333333	105.3333333 L 901.6666667	99 C 902	101.6666667	885.6666667	102	885.3333333	99 Z');
 	fig_pp3.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_pp3);
 
-var fig_pp4 = new fabric.Path('M 1353.5	136.5 L 1370	124.5 C 1375.5	122	1381.5	152	1372	156.5 L 1353.5	147.5 C 1356	148	1357.5	137.5	1353.5	136.5 Z');
+var fig_pp4 = new fabric.Path('M 902.3333333	91 L 913.3333333	83 C 917	81.33333333	921	101.3333333	914.6666667	104.3333333 L 902.3333333	98.33333333 C 904	98.66666667	905	91.66666667	902.3333333	91 Z');
 	fig_pp4.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)'});
 	canvas.add(fig_pp4);
 
-var fig_pp5 = new fabric.Path('M 1330.5	138	 C 1331.5	133	1352	134.5	1351.5	138 C 1356	137.5	1355.5	147	1351.5	147.5 C 1352	150.5	1332	152.5	1331	147.5 C 1326	146	1326.5	136.5	1330.5	138 Z');
+var fig_pp5 = new fabric.Path('M 887	92 C 887.6666667	88.66666667	901.3333333	89.66666667	901	92 C 904	91.66666667	903.6666667	98	901	98.33333333 C 901.3333333	100.3333333	888	101.6666667	887.3333333	98.33333333 C 884	97.33333333	884.3333333	91	887	92 Z');
 	fig_pp5.set({scaleX:nEscala , scaleY:nEscala, fill: 'rgb(237, 247, 250)' });
 	canvas.add(fig_pp5);
 //Fin
 //
 
 //LINEAS VERTICAL
-var linea_vertical = new fabric.Path('M 692 10 L 692 500 L 690 500 L 690 10');
+var linea_vertical = new fabric.Path('M 461 5 L 458 5 L 458 200 461 200');
 	linea_vertical.set({fill: 'rgb(236, 120, 44)'});
 canvas.add(linea_vertical);
 
 //LINEAS HORIZONTAL
-var linea_horizontal = new fabric.Path(' M 50 100 L 50 105 L 1350 105 L 1350 100');
+/*var linea_horizontal = new fabric.Path(' M 50 205 L 50 200 L 2750 200 L 2750 205');
 	linea_horizontal.set({fill: 'rgb(236, 120, 44)'});
-canvas.add(linea_horizontal);
+canvas.add(linea_horizontal);*/
 //////
 elegido_a1 = false;
 fig_a1.on('mousedown',function(e){ 
